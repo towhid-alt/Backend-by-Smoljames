@@ -5,6 +5,7 @@ const app = express()
 const PORT = 8383
 
 let data =  ['james'] //JavaScript object literal
+//This is acting as a database for us
 
 
 //MIDDLEWARE
