@@ -16,6 +16,7 @@ const __dirname = dirname(__filename)
 
 //Middleware --> Like a rule that runs for every request
 app.use(express.json())
+
 //Serves the HTML file or any other requested files from the /public directory
 // Tells express to serve all the files from the public folder as static assets/
 //files. Any requests for the css files will be resolved to the public directory.
